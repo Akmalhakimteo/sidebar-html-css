@@ -16,9 +16,11 @@ header {
     height: 50px;
     margin: auto;
     border-bottom: 1px solid #EEE;
+
 }
 #brand {
-    float: left;
+    /* float: left; */
+    text-align: center;
     line-height: 50px;
     color: #6985EF;
     font-size: 25px;
@@ -48,7 +50,7 @@ nav li:last-child a {
             width: 240px;
             height: 100%;
             position: absolute;
-            background-color: #FFFFFF;
+            background-color: #6985EF;
             left: -240px;
             transition: all .3s ease-in-out;
             -webkit-transition: all .3s ease-in-out;
@@ -59,8 +61,8 @@ nav li:last-child a {
 
         .menu-icon {
             padding: 10px 20px;
-            background-color: #E5DAC0;
-            color: #987D3E;
+            background-color: #6985EF;
+            color: #FFFFFF;
             cursor: pointer;
             float: right;
             margin-top: 4px;
