@@ -48,7 +48,8 @@ nav li:last-child a {
             width: 240px;
             height: 100%;
             position: absolute;
-            background-color: #6985EF;
+            background-color: #FFFFFF;
+            left: -240px;
             transition: all .3s ease-in-out;
             -webkit-transition: all .3s ease-in-out;
             -moz-transition: all .3s ease-in-out;
@@ -66,4 +67,16 @@ nav li:last-child a {
             border-radius: 5px;
         }
 
-        
+        #menuToggle {
+            display: none;
+        }
+
+        #menuToggle:checked ~ .menu {
+            position: absolute;
+            left: 0;
+        }
+
+        #menuToggle:checked ~ .mainarea {
+            position: absolute;
+            left: 240px;
+        }
